@@ -1,0 +1,319 @@
+ul{
+
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  position: fixed;
+  overflow:hidden;
+  top: 0;
+   width:100%;
+   box-shadow:5px 5px 5px 2px rgb(171, 183, 183) ; 
+}
+li{
+  float:left;
+}
+li a{
+
+ display: block;
+ color:white;
+  text-align: center;
+  padding: 14px 160px;
+  text-decoration: none;
+}
+li a:hover{
+  background-color: rgb(191,191,191);
+}
+
+.img1{
+     
+     background-position: center;
+  background-size: cover;
+background-image:url("coffeehouse.jpg");
+   height:550px;
+  filter: grayscale(50%);
+  
+   
+}
+.open{
+    position: absolute;
+    bottom:10px;
+    background-color: black;
+    color: white;
+    left:25px;
+    font-family: cursive;
+    border:4px solid black;
+    font-size:15px;
+}
+.adr{
+     position: absolute;
+    bottom:10px;
+    right:25px;
+    font-family:  "Inconsolata", sans-serif;
+    font-size:15px;
+    color: white;
+}
+.middle{
+    text-align:center;
+    font-family:serif;
+    color: white;
+    font-size:90px;
+    white-space:pre-line;
+    padding-top:55px; 
+    
+}
+.grey{
+    background-color: #F5F5F5;
+
+    font-size: large;
+}
+.abo{
+    text-align: center;
+    font-style:normal; 
+    font-size: xx-large;
+    background-color: black;
+    color: white;
+    width:180px;
+    font-family: monospace;
+    margin-left:650px;
+ height: 30px; 
+      
+    }
+.txt{
+     margin-top:70px; 
+ text-align: left;
+ font-size: larger;
+ width:700px;
+   margin-left:400px;
+   font-family: Garamond;
+    line-height: 35px;
+color: #000000;
+font-weight:400;
+    }
+.txt2{
+   text-align: left;
+ font-size: larger;
+ width:700px;
+   margin-left:400px;
+   font-family: Garamond;
+    line-height: 35px;
+color: #000000;
+font-weight:400; 
+}
+.qu{
+    text-align: left;
+ font-size: larger;
+ width:700px;
+   font-family: Garamond; 
+color: #000000;
+font-weight:400; 
+}
+.qu2{
+    text-align: left;
+ font-size: larger;
+ width:700px;
+   font-family: Garamond;
+color: #000000;
+font-weight:400;    
+}
+.img2{
+      margin-left:400px;
+      filter: grayscale(50%);
+ 
+}
+.oh{
+      text-align: left;
+ font-size: larger;
+ width:700px;
+   margin-left:400px;
+   font-family: monospace;
+    line-height: 35px;
+color: #000000;
+font-weight:400;   
+}
+.add{
+      text-align: left;
+ font-size: larger;
+ width:700px;
+   margin-left:400px;
+   font-family: monospace;
+   line-height: 10px;
+color: #000000;
+font-weight:400;    
+}
+.bg{
+    
+     margin-left:400px;
+    text-align: center;
+    background-color: #2F4F4F;
+    width: 700px;
+}
+.bg:hover{
+    opacity:0.9;
+   font-size: larger;  
+   }
+.menu{
+ 
+   text-align: center;
+    font-style:normal; 
+    font-size:xx-large;
+    background-color: black;
+    color: white;
+    width:140px;
+    font-family: monospace;
+    margin-left:650px;
+ height: 30px;
+ letter-spacing: 3PX;
+ 
+}
+.menbar{
+ height:50px;
+  width:700px;
+   background-color:white;
+  overflow: hidden;
+  margin-left:400px;
+   box-shadow:5px 5px 5px 2px rgb(171,183,183) ,5px 5px 5px 2px rgb(171,183,183),5px 5px 5px 2px rgb(171,183,183),5px 5px 5px 2px rgb(171,183,183);
+margin-bottom: 7px;
+}
+.menbar a{
+  display: inline-block;
+  padding: 8px;
+ font-style:normal;
+ color:#808080;
+ font-family: monospace;
+   font-size:x-large;
+    text-align: center;
+  padding: 14px 150px;
+  float:left;
+    text-decoration: none;
+}
+.menbar a:hover{
+
+   background-color: #333;
+ 
+  text-align: center;
+  text-decoration: none;
+}
+.menbar a.active{
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+}
+.men2{
+  width:700px;
+   background-color:white;
+  overflow: hidden;
+  margin-left:400px;
+   box-shadow:5px 5px 5px  4px rgb(171,183,183) ;
+ 
+ 
+}
+h4{
+ font-family: monospace;
+ text-align: left;
+ padding-left: 20px;
+ 
+ 
+}
+h6{
+ font-size: larger;
+  font-family: monospace;
+ text-align: left;
+ padding-left: 20px;
+ color:grey;
+ 
+}
+h2{
+ font-family: monospace;
+ text-align: center;
+ font-weight: 400;
+  text-shadow: 2px 2px 5px grey;
+}
+.img3{
+  margin-left:400px;
+      filter: grayscale(50%);
+}
+.where{
+   text-align: center;
+    font-style:normal; 
+    font-size:x-large;
+    background-color: black;
+    color: white;
+    width:250px;
+    font-family: monospace;
+    margin-left:630px;
+ height: 30px;
+ letter-spacing: 3PX; 
+}
+.find{
+  text-align: left;
+    color: black;
+    font-family: monospace;
+    margin-left:380px;
+opacity: 0.8;
+
+}
+.img4{
+   margin-left:400px;
+      filter: grayscale(50%);
+}
+.fyi{
+  font-size:x-large;
+    background-color: black;
+    color: white;
+    width:40px;
+}
+.tt{
+    margin-left:400px;
+  font-family: monospace;
+  white-space:pre-line;
+color:black;
+font-size:19px;
+
+}
+.form{
+  margin-left:400px;
+}
+.txt1{
+
+  font-family: monospace;
+  font-size: x-large;
+ width: 700px;
+ height:60px;
+}
+.num{
+   font-size: x-large;
+  font-family: monospace;
+ height:60px;
+ width:700px;
+}
+.da{
+   font-size: x-large;
+  font-family: monospace;
+  height:60px;
+  width: 700px;
+}
+.mss{
+   font-size: x-large;
+  font-family: monospace;
+  height:60px;
+   width: 700px;
+}
+.bu{
+
+ font-family: monospace;
+ background-color: black;
+ color:white;
+   width:150px;
+}
+footer{
+
+
+ text-align: center;
+ height: 200px;
+ background-color:#D3D3D3; 
+}
+.yara{
+ padding-top:100px; 
+ font-family: monospace;
+}
